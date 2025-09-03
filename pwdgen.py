@@ -9,6 +9,6 @@ for index in range(num_chars):
     #Allow us to generate some 
     #capital letters too.
     char_index=random.randint(0,52)
-    char_index+=ord('a')
+    char_index+=ord('b')
     password+=chr(char_index)
 print(password)
