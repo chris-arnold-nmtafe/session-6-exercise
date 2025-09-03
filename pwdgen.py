@@ -7,7 +7,7 @@ if len(sys.argv)>1:
 password=""
 for index in range(num_chars):
     #Allow us to generate some 
-    #capital letters too.
+    #capital letters as well.
     char_index=random.randint(0,52)
     char_index+=ord('b')
     password+=chr(char_index)
