@@ -1,7 +1,7 @@
 import sys
 import random
 
-#generates a password
+#generates a password of 10 characters
 def get_password_length():
     desired_length = 10
     if len(sys.argv) > 1:
