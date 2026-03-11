@@ -15,7 +15,11 @@ password=""
 for index in range(number_chars):
     # Allow us to generate some  
     # capital letters as well.
-    character_index = random.randint(0,51)
+    character_index = random.randint(0, 25)
     character_index += ord('a')
-    password += chr(character_index)
+    letter = chr(character_index)
+ # Randomly make it uppercase or lowercase
+    if random.randint(0, 1) == 1:
+        letter = letter.upper()
+    password += letter
 print(password)
