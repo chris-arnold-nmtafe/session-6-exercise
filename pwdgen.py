@@ -1,7 +1,7 @@
 import sys
 import random
 
-#generates a password of 10 characters
+# generates a password of 10 characters
 # This code does something.
 def get_password_length():
     desired_length = 10
@@ -15,7 +15,7 @@ password=""
 for index in range(number_chars):
     # Allow us to generate some  
     # capital letters as well.
-    character_index = random.randint(0,52)
-    character_index += ord('b')
+    character_index = random.randint(0,51)
+    character_index += ord('a')
     password += chr(character_index)
 print(password)
