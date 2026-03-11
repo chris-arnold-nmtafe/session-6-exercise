@@ -1,6 +1,7 @@
 import sys
 import random
 
+#This folder produces passwords
 def get_password_length():
     desired_length = 10
     if len(sys.argv) > 1:
