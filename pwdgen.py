@@ -1,8 +1,8 @@
 import sys
 import random
 
-#Does something that im not quite sure
-
+# Does something that im not quite sure
+# Some comments
 def get_password_length():
     desired_length = 10
     if len(sys.argv) > 1:
