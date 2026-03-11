@@ -1,6 +1,8 @@
 import sys
 import random
 
+#This folder produces passwords
+# This code does something.
 #Does something that im not quite sure
 
 def get_password_length():
