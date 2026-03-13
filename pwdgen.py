@@ -4,7 +4,7 @@ import random
 #Does something that im not quite sure
 
 def get_password_length():
-    desired_length = 10
+    desired_length = 12
     if len(sys.argv) > 1:
         desired_length = int(sys.argv[1])
     return desired_length
