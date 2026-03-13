@@ -2,6 +2,8 @@ import sys
 import random
 
 #Does something that im not quite sure
+#EHEHHEHEHEHHEHE I'M MAKING CHANGES
+#EHEHHEHEHEHHEHE I'M MAKING CHANGES
 
 def get_password_length():
     desired_length = 10
@@ -19,3 +21,5 @@ for index in range(number_chars):
     character_index += ord('b')
     password += chr(character_index)
 print(password)
+
+#EHEHHEHEHEHHEHE I'M MAKING CHANGES
