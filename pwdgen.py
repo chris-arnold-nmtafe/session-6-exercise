@@ -15,7 +15,7 @@ number_chars=get_password_length()
     
 password=""
 for index in range(number_chars):
-    # Allow us to generate some  
+    # Allow us to generate some FREAKIN'  
     # capital letters as well.
     character_index = random.randint(0,52)
     character_index += ord('b')
