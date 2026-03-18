@@ -1,1 +1,1 @@
-# session-6-exercise
+ghodt and grill# session-6-exercise
