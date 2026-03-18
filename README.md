@@ -1,1 +1,1 @@
-# session-6-exercise
+ghost and grill# session-6-exercise
